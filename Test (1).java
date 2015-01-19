@@ -17,7 +17,7 @@ public class Test {
 					+ "\n2. Edit existing contact" + "\n3. Print the phonebook"
 					+ "\n4. Exit the phonebook"
 					+ "\n5. Number of contacts in the phonebook");
-			numb = TextIO.getInt();
+			numb = TextIO.getlnInt();
 
 			if (numb == 1) {
 				addUser();
